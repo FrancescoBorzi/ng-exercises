@@ -1,0 +1,13 @@
+.alert {
+  max-width: 600px;
+  font-weight: bold;
+}
+
+.alert .fa {
+  margin-right: 4px;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.4; }
+}

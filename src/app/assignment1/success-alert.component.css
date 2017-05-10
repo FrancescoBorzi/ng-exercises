@@ -1,0 +1,8 @@
+.alert {
+  max-width: 600px;
+  font-weight: bold;
+}
+
+.alert .fa {
+  margin-right: 4px;
+}
