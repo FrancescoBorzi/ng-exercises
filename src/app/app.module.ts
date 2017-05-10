@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { Assignment1Module } from './assignment1/assignment1.module';
+import { Assignment2Module } from './assignment2/assignment2.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { Assignment1Module } from './assignment1/assignment1.module';
     BrowserModule,
     FormsModule,
     HttpModule,
-    Assignment1Module
+    Assignment1Module,
+    Assignment2Module
   ],
   providers: [],
   bootstrap: [AppComponent]
