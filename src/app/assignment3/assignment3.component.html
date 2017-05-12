@@ -1,0 +1,16 @@
+<button class="btn btn-info" (click)="onDisplayDetails()">Display Details</button>
+<br><br>
+
+<div class="alert alert-info">
+  <p [hidden]="!showDetails">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  <p [hidden]="showDetails" class="placeholder">&nbsp;</p>
+</div>
+
+<p>Clicks list:</p>
+<ul>
+  <li *ngFor="let click of clicks; let i = index;">
+    <span [ngClass]="{ white: i > 4 }" [ngStyle]="{ backgroundColor: i > 4 ? 'blue' : 'none' }">
+      <strong>{{ i }})</strong> {{ click }}
+    </span>
+  </li>
+</ul>
