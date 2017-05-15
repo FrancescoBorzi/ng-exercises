@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { Assignment1Module } from './assignment1/assignment1.module';
 import { Assignment2Module } from './assignment2/assignment2.module';
 import { Assignment3Module } from './assignment3/assignment3.module';
+import { Assignment4Module } from './assignment4/assignment4.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Assignment3Module } from './assignment3/assignment3.module';
     HttpModule,
     Assignment1Module,
     Assignment2Module,
-    Assignment3Module
+    Assignment3Module,
+    Assignment4Module
   ],
   providers: [],
   bootstrap: [AppComponent]

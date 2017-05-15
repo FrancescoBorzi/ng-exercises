@@ -1,0 +1,12 @@
+<app-game-control
+  (numberEmitted)="onNumberEmitted($event)"
+  (clear)="numbers = []"></app-game-control>
+<br><br>
+<ul>
+  <li *ngFor="let number of numbers">
+    <app-even *ngIf="number % 2 === 0; else elseBlock" [number]="number"></app-even>
+    <ng-template #elseBlock>
+      <app-odd [number]="number"></app-odd>
+    </ng-template>
+  </li>
+</ul>
