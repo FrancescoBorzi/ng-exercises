@@ -1,0 +1,9 @@
+.form-output {
+  margin-top: 20px;
+  border: 1px solid darkgrey;
+  padding: 10px;
+}
+
+.help-block {
+  color: red;
+}
