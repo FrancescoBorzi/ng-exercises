@@ -1,5 +1,9 @@
 # NgExercises
 
+A collection of exercies from the [Maximilian Schwarzmüller's Angular course on Udemy](https://www.udemy.com/the-complete-guide-to-angular-2/).
+
+-----------------
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Development server
